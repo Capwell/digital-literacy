@@ -1,6 +1,6 @@
 my_dict = {
-    'name': 'Андрей',
+    'name': 1,
     'subjects': ['py', 'js', 'c#'],
 }
 
-print(my_dict['subjects'][-1])
+print(my_dict['name'][-1])
