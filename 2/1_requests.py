@@ -5,11 +5,11 @@
 import requests
 
 # Отправляем GET-запрос:
-response = requests.get(
-    'http://info.cern.ch/hypertext/WWW/TheProject.html'
-)
+url = 'http://info.cern.ch/hypertext/WWW/TheProject.html'
+
+response = requests.get(url)
 print(response.text)
-# url = 'http://innopolis.university'
+# url = 'https://stc.innopolis.university/digital_teacher'
 # url = 'http://proninteam.ru'
 
 # print(response.text)
